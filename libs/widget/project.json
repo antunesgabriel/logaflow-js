@@ -1,0 +1,8 @@
+{
+  "name": "widget",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/widget/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}
