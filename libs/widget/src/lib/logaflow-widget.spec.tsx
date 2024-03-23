@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Widget from './widget';
+import LogaflowWidget from './logaflow-widget';
 
-describe('Widget', () => {
+describe('LogaflowWidget', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Widget />);
+    const { baseElement } = render(<LogaflowWidget />);
     expect(baseElement).toBeTruthy();
   });
 });

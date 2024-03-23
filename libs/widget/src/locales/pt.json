@@ -1,0 +1,45 @@
+{
+  "translation": {
+    "stepOne": {
+      "title": "Deixe-nos um feedback",
+      "description": "Que tipo de feedback você tem?",
+      "bugReport": "Reportar Bug",
+      "newIdea": "Sugerir ideia",
+      "other": "Fazer comentário"
+    },
+    "watermark": "Widget por ",
+    "components": {
+      "MakeCommentComponent": {
+        "title": "Fazer um comentário",
+        "description": "Sua opinião é muito importante para nós",
+        "validationMessage": "Por favor digite seu comentário",
+        "label": "Seu Comentário"
+      },
+      "SuggestAnIdeaComponent": {
+        "title": "Sugira uma Ideia",
+        "description": "Todas as idéias para melhorar nosso produto são bem vindas",
+        "validationMessage": "Please enter your idea",
+        "label": "Sua Ideia",
+        "placeholder": "Eu gostaria..."
+      },
+      "ReportBugComponent": {
+        "title": "Reportar Bug",
+        "description": "Poderia nos dizer o que houve?",
+        "choseEvidenceMessage": "Escolha uma das forma abaixo para nos mostrar o que ouve",
+        "label": "Bug",
+        "placeholder": "Eu não consigo fazer login..."
+      },
+      "CommentFormComponent": {
+        "description": "Todas as idéias para melhorar",
+        "validationMessage": "Por favor nos deixe um comentário",
+        "submitFeedback": "Enviar Feedback",
+        "takeAScreenshot": "Adicionar Screenshot",
+        "finishTitle": "Feedback enviado",
+        "finishDescription": "Muito obrigado pelo feedback! Com sua ajuda nós tornamos nosso produto muito melhor para te atender."
+      }
+    },
+    "common": {
+      "submitFeedback": "Enviar Feedback"
+    }
+  }
+}

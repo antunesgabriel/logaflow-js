@@ -1,1 +1,1 @@
-export * from './lib/widget';
+export * from './lib/logaflow-widget';

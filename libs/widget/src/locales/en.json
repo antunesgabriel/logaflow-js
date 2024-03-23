@@ -1,0 +1,45 @@
+{
+  "translation": {
+    "stepOne": {
+      "title": "Give us a feedback",
+      "description": "What type feedback do you have?",
+      "bugReport": "Bug Report",
+      "newIdea": "Suggest an Idea",
+      "other": "Make a Comment"
+    },
+    "watermark": "Powered by",
+    "components": {
+      "MakeCommentComponent": {
+        "title": "Make a Comment",
+        "description": "Your opinion is very important to us",
+        "validationMessage": "Please enter your comment",
+        "label": "Your Comment"
+      },
+      "SuggestAnIdeaComponent": {
+        "title": "Suggest an Idea",
+        "description": "Any ideas to improve our product are welcome",
+        "validationMessage": "Please enter your idea",
+        "label": "Your idea",
+        "placeholder": "I would love..."
+      },
+      "ReportBugComponent": {
+        "title": "Bug Report",
+        "description": "Could you tell us what happened?",
+        "choseEvidenceMessage": "Please choose one of the options to highlight the bug",
+        "label": "Bug",
+        "placeholder": "I can not log in..."
+      },
+      "CommentFormComponent": {
+        "description": "Any ideas to improve our product are welcome",
+        "validationMessage": "Please fill this field",
+        "submitFeedback": "Submit Feedback",
+        "takeAScreenshot": "Take a screenshot",
+        "finishTitle": "Feedback sent",
+        "finishDescription": "Thank you very much for the feedback! With your help we make our product much better to serve you."
+      }
+    },
+    "common": {
+      "submitFeedback": "Submit Feedback"
+    }
+  }
+}
