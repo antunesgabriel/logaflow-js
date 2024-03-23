@@ -7,6 +7,7 @@ declare global {
       identify?: string;
       startSessionMonitor(config: JSONConfig): void;
       getSession(): Session;
+      setupLogaflowProxyIframe(projectKey: string): Promise<string>;
     };
     logaflowIdentify: (identify: string) => void;
   }
