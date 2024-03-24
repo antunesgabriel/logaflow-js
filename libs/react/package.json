@@ -3,6 +3,23 @@
   "version": "0.0.1",
   "main": "./index.js",
   "types": "./index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antunesgabriel/logaflow-js/tree/main/libs/react"
+  },
+  "keywords": [
+    "logaflow",
+    "widget",
+    "feedback",
+    "user",
+    "react"
+  ],
+  "author": {
+    "name": "Antunes"
+  },
   "exports": {
     ".": {
       "import": "./index.mjs",

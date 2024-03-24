@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import {Logaflow} from './logaflow';
+import { LogaflowWidget } from './logaflow';
 
 describe('Logaflow', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Logaflow />);
+    const { baseElement } = render(<LogaflowWidget projectKey="xpto" />);
     expect(baseElement).toBeTruthy();
   });
 });
