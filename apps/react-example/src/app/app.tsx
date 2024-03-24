@@ -1,14 +1,19 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
+
+import { LogaflowWidget } from '@logaflow/react';
 
 export function App() {
   return (
-    <div>
-      <h1>
-        <span> Hello there, </span>
-        Welcome showcase 👋
-      </h1>
-    </div>
+    <>
+      <LogaflowWidget projectKey="29e159ad-b237-4cce-af4e-16022b075525" />
+
+      <div>
+        <h1>
+          <span> Hello there, </span>
+          Welcome showcase 👋
+        </h1>
+      </div>
+    </>
   );
 }
 

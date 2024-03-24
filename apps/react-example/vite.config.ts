@@ -8,12 +8,12 @@ export default defineConfig({
   cacheDir: '../../node_modules/.vite/apps/react-example',
 
   server: {
-    port: 4200,
+    port: 4444,
     host: 'localhost',
   },
 
   preview: {
-    port: 4300,
+    port: 4545,
     host: 'localhost',
   },
 
