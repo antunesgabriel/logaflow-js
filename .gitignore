@@ -40,3 +40,13 @@ Thumbs.db
 
 .nx/cache
 .env
+./libs/react/hooks
+./libs/react/lib
+./libs/react/index.d.ts
+./libs/react/index.js
+./libs/react/index.mjs
+libs/react/index.js
+libs/react/index.mjs
+libs/react/index.d.ts
+libs/react/hooks
+libs/react/lib
