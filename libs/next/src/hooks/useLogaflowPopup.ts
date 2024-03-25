@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 
-export function useWidget() {
+export function useLogaflowPopup() {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleMessage = useCallback(($event: MessageEvent<MessageData>) => {

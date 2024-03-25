@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@logaflow/next": ["libs/next/src/index.ts"],
       "@logaflow/react": ["libs/react/src/index.ts"]
     }
   },

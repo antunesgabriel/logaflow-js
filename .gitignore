@@ -41,3 +41,8 @@ Thumbs.db
 .nx/cache
 .env
 libs/react/dist
+libs/next/dist
+
+# Next.js
+.next
+out
