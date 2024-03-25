@@ -1,8 +1,11 @@
 {
   "name": "@logaflow/react",
-  "version": "0.0.3",
-  "main": "./index.js",
-  "types": "./index.d.ts",
+  "description": "Streamline user feedback collection with Logaflow. Efficiently collect feedback from your users to accelerate bug fixes and increase product impact.",
+  "version": "0.0.7",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "./package.json": "./package.json",
   "publishConfig": {
     "access": "public"
   },
@@ -20,10 +23,15 @@
   "author": {
     "name": "Antunes"
   },
+  "license": "MIT",
   "exports": {
     ".": {
-      "import": "./index.mjs",
-      "require": "./index.js"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     }
+  },
+  "bugs": {
+    "url": "https://github.com/antunesgabriel/logaflow-js/issues"
   }
 }
