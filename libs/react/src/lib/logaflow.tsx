@@ -1,12 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
-const { VITE_ENVRIOMENT } = import.meta.env;
 
 const SCRIPT_ID = 'logaflow-webcomponent-js';
-const WEBCOMPONENT_URL =
-  VITE_ENVRIOMENT === 'development'
-    ? 'http://localhost:4343'
-    : 'https://widget.logaflow.com';
-
 /* eslint-disable-next-line */
 export interface LogaflowWidgetProps {
   projectKey: string;
@@ -26,6 +20,10 @@ export function LogaflowWidget({
     }
 
     const $script = document.createElement('script');
+
+    const WEBCOMPONENT_URL = window._is_logaflow_debug
+      ? 'http://localhost:4343'
+      : 'https://widget.logaflow.com';
 
     $script.crossOrigin = 'true';
     $script.async = true;

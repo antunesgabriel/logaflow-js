@@ -7,5 +7,6 @@ declare global {
       identify?: string;
     };
     logaflowIdentify: (identify: string) => void;
+    _is_logaflow_debug?: bollean;
   }
 }
