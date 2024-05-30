@@ -1,7 +1,7 @@
 {
   "name": "@logaflow/react",
   "description": "Streamline user feedback collection with Logaflow. Efficiently collect feedback from your users to accelerate bug fixes and increase product impact.",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "module": "./dist/index.mjs",
