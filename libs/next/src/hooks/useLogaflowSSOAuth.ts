@@ -1,9 +1,14 @@
 import { useCallback } from 'react';
 
 export function useLogaflowSSOAuth() {
-  const ssoAuth = useCallback((ssoToken: string) => {
-    window.logaflowWidgetSSOAuth(ssoToken);
+  const setSSOAuth = useCallback((ssoToken: string) => {
+    if (!!window.logaflowWidgetSSOAuth) {
+      window.logaflowWidgetSSOAuth(ssoToken);
+      return;
+    }
+
+    setTimeout(() => window.logaflowWidgetSSOAuth(ssoToken), 2000);
   }, []);
 
-  return { ssoAuth };
+  return { setSSOAuth };
 }
