@@ -28,7 +28,7 @@ export function LogaflowWidget({
     $script.crossOrigin = 'true';
     $script.async = true;
     $script.type = 'module';
-    $script.src = `${WEBCOMPONENT_URL}/addons/logaflow-widget.es.js?version=1.0.3`;
+    $script.src = `${WEBCOMPONENT_URL}/addons/logaflow-widget.es.js?version=1.0.4`;
 
     $script.onload = function () {
       setLoaded(true);
